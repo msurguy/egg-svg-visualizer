@@ -1,0 +1,44 @@
+{
+  "name": "egg-svg-visualizer",
+  "version": "1.0.0",
+  "description": "A React application for visualizing SVG designs projected over an egg.",
+  "keywords": [
+    "react",
+    "vite",
+    "three.js",
+    "svg",
+    "visualizer",
+    "eggbot"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@react-three/fiber": "9.0.4",
+    "three": "0.174.0",
+    "@react-three/drei": "10.0.4",
+    "canvg": "4.0.2"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "@types/react": "19.0.0",
+    "@types/react-dom": "19.0.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "gh-pages": "^5.0.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
