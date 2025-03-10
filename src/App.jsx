@@ -14,7 +14,7 @@ function App() {
   // State for egg parameters
   const [eggParams, setEggParams] = useState({
     radiusX: 1.0, // Width
-    radiusY: 1.5, // Height
+    radiusY: 1.2, // Height
     radiusZ: 1.0, // Depth
     segments: 512, // Detail level
   });
@@ -374,7 +374,7 @@ function App() {
               verticalCoverage={verticalCoverage}
               verticalOffset={verticalOffset}
             />
-            <Environment files="/studio_small_03_1k.hdr" />
+            <Environment files={`${import.meta.env.BASE_URL}studio_small_03_1k.hdr`} />
             <OrbitControls
               enablePan={true}
               enableZoom={true}
